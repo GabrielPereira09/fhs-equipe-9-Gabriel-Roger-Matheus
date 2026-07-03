@@ -1,0 +1,13 @@
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Executáveis gerados pelo C
+*.exe
+*.out
+
+# Arquivos temporários
+*.tmp
