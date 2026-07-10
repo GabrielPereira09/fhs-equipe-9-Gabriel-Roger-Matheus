@@ -1,1 +1,33 @@
 
+versao final codigo em C, funcional e testado
+
+#include <stdio.h>
+
+int main() {
+
+    int n;
+    unsigned long long resultado = 1;
+
+    printf("=== CALCULO DO FATORIAL ===\n\n");
+
+    printf("Digite a quantidade de produtos distintos: ");
+    scanf("%d", &n);
+
+    if (n < 0) {
+
+        printf("\nNao existe fatorial para numeros negativos.\n");
+
+    } else {
+
+        for(int i = 1; i <= n; i++) {
+
+            resultado *= i;
+
+        }
+
+        printf("\nQuantidade de organizacoes possiveis: %llu\n", resultado);
+
+    }
+
+    return 0;
+}
