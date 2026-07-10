@@ -1,1 +1,26 @@
+Primeira versão do algoritmo.
 
+Objetivos:
+
+- Validar a lógica do cálculo do fatorial.
+- Testar entradas básicas.
+
+
+#include <stdio.h>
+
+int main() {
+
+    int n;
+    int resultado = 1;
+
+    printf("Digite a quantidade de produtos: ");
+    scanf("%d", &n);
+
+    for(int i = 1; i <= n; i++) {
+        resultado = resultado * i;
+    }
+
+    printf("Resultado: %d\n", resultado);
+
+    return 0;
+}
